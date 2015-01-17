@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+
+    <color name="text">#ff221f1f</color>
+    <color name="text_subdued">#ff615e5c</color>
+    <color name="window_bg">#ffd4cece</color>
+    <color name="black_overlay">#66000000</color>
+
+
+    <color name="blue">#0099CC</color>
+    <color name="purple">#9933CC</color>
+    <color name="green">#669900</color>
+    <color name="orange">#FF8800</color>
+
+
+
+
+
+</resources>

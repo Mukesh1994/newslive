@@ -1,0 +1,85 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codegear.newslive.Fragments.LoginFragment">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:text="Login"
+            android:textColor="@android:color/white"
+            android:textSize="50sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lgn_errmsg"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:textColor="@android:color/holo_red_dark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Username"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/lgnusername"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:textColor="@android:color/white"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Password"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/lgnpassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="******"
+            android:inputType="textPassword"
+            android:textColor="@android:color/white"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" />
+
+        <Button
+            android:id="@+id/btnlgn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:text="Login!" />
+
+        <TextView
+            android:id="@+id/linetoreg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:text="Don't have an account! Register Here!"
+            android:textColor="@android:color/holo_blue_light" />
+    </LinearLayout>
+
+</ScrollView>
+
